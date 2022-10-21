@@ -7,6 +7,9 @@ const Home: NextPage = () => {
       <p className="text-center font-bold font-family:Times New Roman">
         Bruno Costa Prado
       </p>
+      <p className="text-center font-bold font-family:Times New Roman">
+        Estudante de Engenharia de Software
+      </p>
     </>
   );
 };
