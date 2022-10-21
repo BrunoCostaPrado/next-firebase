@@ -6,14 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "web-test": "npx playwright test",
+    "web-report": "npx playwright show-report"
   },
   "dependencies": {
     "firebase": "^9.12.1",
     "firebase-tools": "^11.15.0",
     "next": "12.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "reactfire": "^4.2.2"
   },
   "devDependencies": {
     "@playwright/test": "^1.27.1",

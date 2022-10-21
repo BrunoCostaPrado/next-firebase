@@ -1,13 +1,16 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import type { NextApiRequest, NextApiResponse } from 'next'
-
-type Data = {
-  name: string
+export function Hello() {
+  console.log("Hello World");
 }
 
-export default function handler(
-  req: NextApiRequest,
-  res: NextApiResponse<Data>
-) {
-  res.status(200).json({ name: 'John Doe' })
+export function R() {
+  let x = Math.floor(Math.random() * 10);
+  let y = "Numero é " + x;
+
+  console.log(y);
+}
+
+export function T() {
+  const x = Math.floor(Math.random() * 10);
+  const y = Math.floor(Math.random() * 10);
+  console.log(x + y);
 }
