@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Hello } from "./api/hello";
+
 
 const Home: NextPage = () => {
   return (
